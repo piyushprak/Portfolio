@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Piyush Prakhar - Animated Portfolio
+A modern, responsive portfolio website built with Next.js, Tailwind CSS, and Framer Motion, showcasing my skills and projects as a Full Stack Developer.
+✨ Features
 
-## Getting Started
+Responsive Design: Optimized for all devices and screen sizes
+Smooth Animations: Beautiful page transitions and micro-interactions using Framer Motion
+Interactive Skills Section: Animated floating skill balls with hover effects
+Modern UI/UX: Dark theme with trendy glassmorphism effects
+Performance Optimized: Fast loading times and smooth scrolling
+Accessibility: Built with semantic HTML and proper ARIA labels
 
-First, run the development server:
+🚀 Technologies Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Framework: Next.js 14
+Styling: Tailwind CSS
+Animations: Framer Motion
+Icons: Lucide React
+Language: JavaScript (ES6+)
+Font: Inter (Google Fonts)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎨 Design Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Dark Theme: Modern dark color scheme with blue and purple accents
+Gradient Effects: Beautiful gradient text and background elements
+Floating Elements: Animated background particles and geometric shapes
+Grid Background: Subtle grid pattern overlay
+Hover Effects: Interactive hover states for all clickable elements
+Loading States: Smooth loading animations for better UX
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📱 Sections
 
-## Learn More
+Hero Section: Introduction with animated profile and CTA buttons
+About Section: Personal information with feature highlights
+Education Section: Timeline of educational background
+Skills Section: Interactive floating skill balls with progress bars
+Projects Section: Detailed project showcases with achievements
+Contact Section: Contact form with social links
 
-To learn more about Next.js, take a look at the following resources:
+🛠️ Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+bashgit clone https://github.com/piyushprak/portfolio.git
+cd portfolio
 
-## Deploy on Vercel
+Install dependencies:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+bashnpm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Run the development server:
+
+bashnpm run dev
+
+Open http://localhost:3000 in your browser.
+
+📁 Project Structure
+src/
+├── app/
+│   ├── components/
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   │   ├── Education.js
+│   │   ├── FloatingElements.js
+│   │   ├── Header.js
+│   │   ├── Hero.js
+│   │   ├── Projects.js
+│   │   └── Skills.js
+│   ├── globals.css
+│   ├── layout.js
+│   └── page.js
+├── next.config.js
+├── package.json
+├── postcss.config.js
+└── tailwind.config.js
+🎯 Key Animations
+
+Page Load: Staggered animations for all sections
+Scroll-triggered: Elements animate as they come into view
+Hover Effects: Smooth scale and glow transformations
+Floating Skills: Continuous rotation and translation animations
+Background Elements: Particle system with organic movement
+Form Interactions: Loading states and success feedback
